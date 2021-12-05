@@ -155,3 +155,7 @@ let message = ["How we see God is a direct reflection of how we see ourselves. I
 "A life without love is of no account. Don’t ask yourself what kind of love you should seek, spiritual or material, divine or mundane, Eastern or Western. Divisions only lead to more divisions. Love has no labels, no definitions. It is what it is, pure and simple. Love is the water of life. And a lover is a soul of fire! The universe turns differently when fire loves water."
 
 ];
+
+ let random = message[Math.floor(Math.random()* message.length)];
+
+ document.body.innerHTML += random;
